@@ -49,7 +49,7 @@ class UIElement:
         self.text = text
 
     def draw(self, screen):
-        font = pygame.font.SysFont("Consoles", 50)
+        font = pygame.font.SysFont("Consoles", 30)
         text = font.render(self.text, True, WHITE)
         screen.blit(text, (self.x, self.y))
 
